@@ -2,9 +2,9 @@
 
 This repository is solely for the purpose of DTSE applicational project - Steam data reviews.
 
-**Task**: In this scenario imagine you work as a Data Scientist for Steam gaming platform. Your task is to download historical game review data from https://www.kaggle.com/whoiskk/steam-game-reviews and prepare a ML model which will be used to predict "user suggestion" category for future game reviews in production. There are 4 datasets in total:
+Repository is structured into 4 folders:
 
-- game_overview.csv
-- sample_submission.csv
-- test.csv
-- train.csv
+- Documentation - contains .pdf file with detailed description of explanatory analysis and model buiding
+- Functions - contains .py file with functions neccesary for creating diagnostic graphs of results of modelling.
+- Model-building - contains two .ipnyb notebook files. With explanatory data analysis and the whole process of model building.
+- Resuslts - contains .pkl (pickeled) file with results of modelling. It is a dataframe with two columns: review_id and predicted user_suggestion. 
